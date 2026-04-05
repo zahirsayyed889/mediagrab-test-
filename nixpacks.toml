@@ -1,0 +1,7 @@
+# ╔══════════════════════════════════════════════════════╗
+# ║   🚀  MediaGrab Pro — Railway Deployment Config       ║
+# ║   Ensures FFmpeg + Python 3.11 for stability          ║
+# ╚══════════════════════════════════════════════════════╝
+
+[phases.setup]
+nixPkgs = ["python311", "ffmpeg"]
